@@ -12,6 +12,6 @@ for campus in campi:
     filtro = lambda c: c['campus'] == campus
     alunos = list(filter(filtro, dados))
     qt_alunos = len(alunos)
-    print(f'Campus {campus}: {qt_alunos} Alunos') > arquivo.txt
+    print(f'Campus {campus}: {qt_alunos} Alunos') 
     
  arquivo.close()
